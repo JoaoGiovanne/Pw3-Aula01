@@ -1,0 +1,14 @@
+p.ellipsis {
+  white-space: nowrap;
+  width: 290px;
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+p.clip {
+  white-space: nowrap;
+  width: 1000px;
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: clip;
+}
