@@ -9,6 +9,7 @@ import { Exercise1BindingComponent } from './exercise1-binding/exercise1-binding
 import { PageClipComponent } from './page-clip/page-clip.component';
 import { PageEllipsisComponent } from './page-ellipsis/page-ellipsis.component';
 import { TextOverflowComponent } from './text-overflow/text-overflow.component';
+import { AleatorioComponent } from './aleatorio/aleatorio.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TextOverflowComponent } from './text-overflow/text-overflow.component';
     Exercise1BindingComponent,
     PageClipComponent,
     PageEllipsisComponent,
-    TextOverflowComponent
+    TextOverflowComponent,
+    AleatorioComponent
   ],
   imports: [
     BrowserModule
